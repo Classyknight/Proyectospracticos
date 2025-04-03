@@ -1,12 +1,12 @@
 // Clase Main para probar el código
 public class Main {
     public static void main(String[] args) {
-        // Crear objetos de los diferentes animales
-        Animal gato = new gato("Tom", 3);
-        Animal pajaro = new Pajaro("Piolin", 2);
+        // Crear objetos de los diferentes dispositivos
+        Dispositivo telefono = new Telefono("Samsung", "Galaxy S23");
+        Dispositivo laptop = new Laptop("Dell", "XPS 15");
 
-        // Hacer que los animales emitan sonidos
-        gato.hacerSonido(); // Debería decir "El gato dice: ¡Miau!"
-        pajaro.hacerSonido(); // Debería decir "El pájaro dice: ¡Pío, pío!"
+        // Encender los dispositivos
+        telefono.encender(); // Debería decir "El teléfono Samsung modelo Galaxy S23 está encendido."
+        laptop.encender();   // Debería decir "La laptop Dell modelo XPS 15 está encendida."
     }
 }
